@@ -2,7 +2,7 @@ import Nav from '../components/nav.jsx';
 import Star from '../components/bg.jsx';
 import WindowWidth from '../hooks/width.jsx';
 import profile from '../assets/professional.jpg';
-import resume from '../pdfs/Resume4_compressed.pdf';
+import resume from '../pdfs/Resume5_compressed.pdf';
 
 function About() {
   const width = WindowWidth();
