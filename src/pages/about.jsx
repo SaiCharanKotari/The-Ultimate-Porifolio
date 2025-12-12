@@ -2,7 +2,7 @@ import Nav from '../components/nav.jsx';
 import Star from '../components/bg.jsx';
 import WindowWidth from '../hooks/width.jsx';
 import profile from '../assets/professional.jpg';
-import resume from '../pdfs/Resume5_compressed.pdf';
+import resume from '../pdfs/Resume6_comp.pdf';
 
 function About() {
   const width = WindowWidth();
@@ -13,7 +13,7 @@ function About() {
   }
   function HandleR() {
     const bio = document.getElementById('bio')
-    bio.innerHTML = '<p className="animate-fadeIn">🤖 Robotics With a strong foundation in robotics and intelligent systems, I’ve worked extensively with ROS1 and ROS2, focusing on navigation, manipulation, and system modeling. My experience includes integrating sensors and actuators, developing basic robotic projects, and training in ROS fundamentals, from mapping and motion control to autonomous behavior simulation. I explore how AI and robotics intersect to create adaptive, real-world solutions for intelligent automation.</p>'
+    bio.innerHTML = '<p className="animate-fadeIn"> 🕵️ Ethical Hacking I explore the digital underworld with a defender’s mindset, dissecting how systems break so they can be built stronger. My work spans web application penetration testing, from reconnaissance and endpoint mapping to uncovering flaws like XSS, SQL injection, broken authorization, and unsafe file handling. I use tools such as Burp Suite, Nmap, Hydra, and custom testing workflows to analyze authentication, exploit weaknesses, and document findings with clear reproduction steps. I also participate in bug bounty programs, where I’ve identified impactful vulnerabilities—including a broken authorization issue exposing paid features on Lovable. My focus is simple: understand systems deeply, challenge them ethically, and help shape safer digital spaces.</p>'
   }
   function HandleA3() {
     const bio = document.getElementById('bio')
@@ -21,8 +21,8 @@ function About() {
   }
   function HandleResume() {
     const link = document.createElement("a");
-    link.href = { resume };
-    link.download = "SaiCharan_Resume.pdf";
+    link.href = resume;
+    link.download = "resume.pdf";
     link.click();
   }
 
@@ -45,7 +45,7 @@ function About() {
             <div className="grid grid-rows-[30%,70%] ">
               <div id="3 options" className="flex flex-row justify-between items-center mx-16 md:mx-8 pr-16">
                 <button onClick={() => HandleSD()} className="btn btn-active rounded-xl hover:text-black">SoftwareDevelopment</button>
-                <button onClick={() => HandleR()} className="btn btn-active rounded-xl hover:text-black">Robotics</button>
+                <button onClick={() => HandleR()} className="btn btn-active rounded-xl hover:text-black">Ethical Hacking</button>
                 <button onClick={() => HandleA3()} className="btn btn-active rounded-xl hover:text-black">AI & 3d</button>
               </div>
               <div id="matter" className="md:text-base lg:text-lg 2xl:text-2xl md:tracking-normal lg:tracking-widest">
@@ -66,7 +66,7 @@ function About() {
               <div className="grid grid-rows-[20%,70%,10%] ">
                 <div id="3 options" className="flex flex-row justify-between items-center  mx-8">
                   <button onClick={() => HandleSD()} className="btn btn-active rounded-xl px-2 text-xs hover:text-black">SoftwareDevelopment</button>
-                  <button onClick={() => HandleR()} className="btn btn-active rounded-xl px-2 text-xs hover:text-black">Robotics</button>
+                  <button onClick={() => HandleR()} className="btn btn-active rounded-xl px-2 text-xs hover:text-black">Ethical Hacking</button>
                   <button onClick={() => HandleA3()} className="btn btn-active rounded-xl px-2 text-xs hover:text-black">AI & 3d</button>
                 </div>
                 <div id="matter" className="text-sm mx-8 md:text-base">

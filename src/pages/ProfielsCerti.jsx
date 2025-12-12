@@ -45,7 +45,7 @@ function ProjectsCerti() {
                     </svg>
                   </button></a>
               </li>
-              <li> Python Course,IIT Bombay, Spoken Tutorial Project
+              <li> Python Course,IIT Bombay
                 <a href={py} target="_blank">
                   <button className="btn btn-ghost">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
@@ -61,7 +61,7 @@ function ProjectsCerti() {
                     </svg>
                   </button></a>
               </li>
-              <li> C++ Course, IIT Bombay, Spoken Tutorial Project
+              <li> C++ Course, IIT Bombay
                 <a href={cpp} target="_blank">
                   <button href="https://saicharank-143.web.app/download/IBMCE%20CEWXAI1IN%20Certificate%20_%20VIT.pdf" className="btn btn-ghost">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
@@ -69,7 +69,7 @@ function ProjectsCerti() {
                     </svg>
                   </button></a>
               </li>
-              <li> C Course, IIT Bombay, Spoken Tutorial Project
+              <li> C Course, IIT Bombay
                 <a href={c} target="_blank">
                   <button className="btn btn-ghost">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5">
