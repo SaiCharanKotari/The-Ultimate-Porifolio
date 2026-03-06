@@ -22,7 +22,7 @@ function About() {
   function HandleResume() {
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "resume.pdf";
+    link.download = "Resume8_compressed.pdf";
     link.click();
   }
 

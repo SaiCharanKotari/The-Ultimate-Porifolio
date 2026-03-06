@@ -18,22 +18,22 @@ function Nav() {
                       ">
               <div>
                 <Link to={'/'}>
-                  <p>about</p>
+                  <p className="hover:text-zinc-400 hover:scale-105 transition-all duration-300">about</p>
                 </Link>
               </div>
               <div>
                 <Link to={'/projects'}>
-                  <p>Projects</p>
+                  <p className="hover:text-zinc-400 hover:scale-105 transition-all duration-300">Projects</p>
                 </Link>
               </div>
               <div>
                 <Link to={'/ProfileCertificates'}>
-                  <p>Profile|&|Certificates</p>
+                  <p className="hover:text-zinc-400 hover:scale-105 transition-all duration-300">Profile|&|Certificates</p>
                 </Link>
               </div>
               <div>
                 <Link to={'/contact'}>
-                  <p>Contact</p>
+                  <p className="hover:text-zinc-400 hover:scale-105 transition-all duration-300">Contact</p>
                 </Link>
               </div>
             </div>
@@ -55,10 +55,10 @@ function Nav() {
                 </div>
               </summary>
               <ul className="menu dropdown-content bg-base-100 rounded-box w-32 p-2 shadow">
-                <li><Link to={'/'}>about</Link></li>
-                <li><Link to={'/Projects'}>Projects</Link></li>
-                <li><Link to={'/ProfileCertificates'}>Profile</Link></li>
-                <li><Link to={'/Contact'}>Contact</Link></li>
+                <li><Link to={'/'} className="hover:text-zinc-400 hover:scale-105 transition-all duration-200">about</Link></li>
+                <li><Link to={'/projects'} className="hover:text-zinc-400 hover:scale-105 transition-all duration-200">Projects</Link></li>
+                <li><Link to={'/ProfileCertificates'} className="hover:text-zinc-400 hover:scale-105 transition-all duration-200">Profile</Link></li>
+                <li><Link to={'/contact'} className="hover:text-zinc-400 hover:scale-105 transition-all duration-200">Contact</Link></li>
               </ul>
             </details>
           </div>
